@@ -33,8 +33,8 @@ from tqdm import tqdm
 import sys
 
 l = os.getcwd()
-l2 = os.path.join(l, 'Tensor_ver\TensorflowTTS-master')
-sys.path.append('D:\Face\Tensor_ver\TensorflowTTS-master')
+l2 = os.path.join(l, 'location')
+sys.path.append('location')
 # l3=os.path.join(l2,'tensorflow_tts')
 # sys.path.append(l3)
 

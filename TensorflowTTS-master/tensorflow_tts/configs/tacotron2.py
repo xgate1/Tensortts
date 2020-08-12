@@ -16,7 +16,8 @@
 
 from tensorflow_tts.processor.ljspeech import symbols as ljspeech_symbols
 from tensorflow_tts.processor.kss import symbols as kss_symbols
-
+sys.path.append('text symbols location')
+from text.symbols import symbols
 
 class Tacotron2Config(object):
     """Initialize Tacotron-2 Config."""
